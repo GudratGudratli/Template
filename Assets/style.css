@@ -1,12 +1,14 @@
-.body{
+.body {
     background-color: burlywood;
     font-family: 'Open Sans', sans-serif;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
-.homemade-recipes{
+
+.homemade-recipes {
     background-color: rgb(119, 157, 128);
     color: white;
     text-align: center;
@@ -14,40 +16,46 @@
     padding-left: 10%;
     padding-right: 10%;
 }
-.homemade-recipes h5{
+
+.homemade-recipes h5 {
     font-size: 22px;
     letter-spacing: 1px;
     font-weight: 300;
 }
-.homemade-recipes h1{
+
+.homemade-recipes h1 {
     font-size: 64px;
     letter-spacing: 1px;
     font-weight: 500;
 }
-.homemade-recipes button{
+
+.homemade-recipes button {
     border-color: white;
 }
-.bread-list{
+
+.bread-list {
     display: flex;
     margin-left: 20%;
     margin-right: 20%;
 }
-.bread-text{
+
+.bread-text {
     font-size: 20px;
 
 }
-.products{
+
+.products {
     text-align: center;
     margin-top: 5%;
 }
 
-.column{
+.column {
     width: 33%;
     padding: 3%;
 }
 
 
-button{
+button {
     background-color: rgb(255, 165, 0);
     color: white;
     padding: 12px 32px;
@@ -56,28 +64,32 @@ button{
     margin-bottom: 350px;
     border: 0;
 }
-button:hover{
+
+button:hover {
     background-color: rgb(174, 113, 0);
 }
-.circle{
+
+.circle {
     width: 60px;
     height: 59px;
     background-image: none;
     color: rgb(255, 255, 255) !important;
-    margin: 0 auto; 
+    margin: 0 auto;
     padding: 13px;
 }
-.inside{
+
+.inside {
     width: 900px;
     margin: 30px auto 0;
 }
-.repeater{
+
+.repeater {
     grid-template-columns: repeat(3, calc(33.3333% - 6.66667px));
     min-height: 375px;
     grid-gap: 10px;
 }
 
-.discount{
+.discount {
     background-color: #f1c50e;
     color: white;
     text-align: center;
@@ -86,12 +98,14 @@ button:hover{
     padding-right: 10%;
     padding-bottom: 50px;
 }
-.discount h2{
+
+.discount h2 {
     font-size: 44px;
     text-align: center;
-    
+
 }
-.discount button{
+
+.discount button {
     background-color: rgb(255, 255, 255);
     color: black;
     padding: 12px 32px;
@@ -100,11 +114,12 @@ button:hover{
     letter-spacing: 1px;
     margin-bottom: 0px;
 }
-.discount button:hover{
-    background-color: rgb(165,187,169);
+
+.discount button:hover {
+    background-color: rgb(165, 187, 169);
 }
 
-.wellcome{
+.wellcome {
     background-color: #f1c50e;
     color: white;
     text-align: center;
@@ -114,17 +129,19 @@ button:hover{
     padding-bottom: 50px;
 }
 
-.wellcome p{
+.wellcome p {
     font-size: 22px;
     font-weight: 300;
     padding-bottom: 30px;
 }
-.wellcome h2{
+
+.wellcome h2 {
     font-size: 44px;
     text-align: center;
-    
+
 }
-.wellcome button{
+
+.wellcome button {
     background-color: rgb(255, 255, 255);
     color: black;
     padding: 20px 50px;
@@ -134,57 +151,66 @@ button:hover{
     margin-bottom: 20px;
     font-size: 16px;
 }
-.wellcome button:hover{
-    background-color: rgb(165,187,169);
+
+.wellcome button:hover {
+    background-color: rgb(165, 187, 169);
 }
 
-.contact-us{
+.contact-us {
     color: white;
     margin-top: 100px;
-    display:flex;
+    display: flex;
     padding-left: 150px;
     padding-right: 10px;
-    background-color: #a5bba9;   
+    background-color: #a5bba9;
 }
-#img1{
+
+#img1 {
     width: 30%;
 }
 
-.img{
+.img {
     width: 20%;
     padding-left: 20px;
     padding-right: 80px;
-    
+
 }
-.contact-us p{
+
+.contact-us p {
     float: left;
     font-size: 20px;
     text-align: left;
-    padding-right:-50px;
+    padding-right: -50px;
 
 }
-.paragraph{
+
+.paragraph {
     padding-right: 150px;
     width: 40%;
 }
-.img1{
+
+.img1 {
     padding-top: 20px;
     width: 120px;
     display: flex;
 }
-.phone1{
-    display:flex !important;
+
+.phone1 {
+    display: flex !important;
 }
-.yellow{
-    padding-top: -80px;
+
+.yellow {
+    padding-top: -150px;
     color: yellow;
+    text-decoration: none;
 }
-.callus{
+
+.callus {
     padding-top: 25px;
 }
 
-footer{
-    background-color: rgb(51,51,51);
+footer {
+    background-color: rgb(51, 51, 51);
     color: white;
     text-align: center;
     padding-top: 30px;
@@ -194,61 +220,72 @@ footer{
     padding: 1em
 }
 
-.footer-head{
+.footer-head {
     padding-bottom: 50px;
 }
-footer p{
+
+footer p {
     font-size: 17px;
 }
 
-footer span{
+footer span {
     font-size: 14px;
     color: white;
 }
-.foooter-text{
+
+.foooter-text {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.footer-link{
+
+.footer-link {
     text-decoration: underline;
-    
+
 }
-.footer-link:hover{
+
+.footer-link:hover {
     text-decoration: none;
 }
 
-.footer-link span:hover{
+.footer-link span:hover {
     color: rgb(116, 116, 116);
 }
 
-.section-3{
+.column-3-btn a:hover {
+    background-color: #a2840d;
+}
+
+.section-3 {
     display: flex;
     margin-left: 15%;
     margin-right: 15%;
     color: white;
 }
 
-.column-3-content{
-    width: 50%;
-    margin-top: 9%;
-    
-}
-.column-3-img{
-    width: 50%;
-    margin-top: 5%;
-    
+.callus a:hover {
+    color: white;
 }
 
-.column-3-content p{
+.column-3-content {
+    width: 50%;
+    margin-top: 9%;
+}
+
+.column-3-img {
+    width: 50%;
+    margin-top: 5%;
+}
+
+.column-3-content p {
     width: 70%;
     margin-top: 3%;
 }
 
-.column-3-content h2{
+.column-3-content h2 {
     width: 70%;
 }
 
-.column-3-content a{
+.column-3-content a {
     padding-top: 12px;
     padding-bottom: 12px;
     padding-left: 24px;
@@ -261,11 +298,11 @@ footer span{
     width: 10%;
 }
 
-.column-3-btn{
+.column-3-btn {
     margin-top: 10%;
 }
 
-#grean-section{
+#grean-section {
     background-color: #a5bba9;
     width: 100%;
 }
